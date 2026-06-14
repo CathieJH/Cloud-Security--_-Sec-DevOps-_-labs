@@ -1,0 +1,9 @@
+# Copy this file to terraform.tfvars and fill in real values.
+# terraform.tfvars is gitignored and must NEVER be committed.
+
+owner          = "Your Name"
+location       = "uksouth"
+
+# Find your tenant ID in the Azure Portal > Microsoft Entra ID > Overview.
+aad_tenant_url = "https://login.microsoftonline.com/00000000-0000-0000-0000-000000000000/"
+aad_issuer     = "https://sts.windows.net/00000000-0000-0000-0000-000000000000/"
